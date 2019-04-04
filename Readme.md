@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DetermineHoveredChartElement/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DetermineHoveredChartElement/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DetermineHoveredChartElement/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DetermineHoveredChartElement/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DetermineHoveredChartElement/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DetermineHoveredChartElement/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to determine which chart element is hovered by the mouse pointer
