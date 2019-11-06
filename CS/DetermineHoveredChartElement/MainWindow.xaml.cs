@@ -40,13 +40,13 @@ namespace DetermineHoveredChartElement
                 builder.AppendLine("Series Label:" + hitInfo.SeriesLabel.Name);
             }
 
-            if (hitInfo.SeriesPoint != null)
+            if (hitInfo.InSeriesPoint)
             {
                 builder.AppendLine("Argument: " + hitInfo.SeriesPoint.Argument);
                 builder.AppendLine("Value: " + hitInfo.SeriesPoint.Value);
             }
 
-            // Show hit-testing results 
+            // Show hit-testing results. 
             if (builder.Length > 0)
                 text1.Content = string.Format("Hit-testing results:\n" + builder.ToString());
             else

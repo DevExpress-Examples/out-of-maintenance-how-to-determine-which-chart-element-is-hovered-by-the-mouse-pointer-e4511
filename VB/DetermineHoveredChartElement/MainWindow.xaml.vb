@@ -44,13 +44,13 @@ Namespace DetermineHoveredChartElement
 				builder.AppendLine("Series Label:" & hitInfo.SeriesLabel.Name)
 			End If
 
-			If hitInfo.SeriesPoint IsNot Nothing Then
-				builder.AppendLine("Argument: " & hitInfo.SeriesPoint.Argument)
-				builder.AppendLine("Value: " & hitInfo.SeriesPoint.Value)
-			End If
+            If hitInfo.InSeriesPoint Then
+                builder.AppendLine("Argument: " & hitInfo.SeriesPoint.Argument)
+                builder.AppendLine("Value: " & hitInfo.SeriesPoint.Value)
+            End If
 
-			' Show hit-testing results 
-			If builder.Length > 0 Then
+            ' Show hit-testing results 
+            If builder.Length > 0 Then
 				text1.Content = String.Format("Hit-testing results:" & Constants.vbLf + builder.ToString())
 			Else
 				text1.Content = "Move the mouse" & Constants.vbLf & " pointer over" & Constants.vbLf & " the chart to see" & Constants.vbLf & " information on" & Constants.vbLf & " hovered chart" & Constants.vbLf & " elements."
