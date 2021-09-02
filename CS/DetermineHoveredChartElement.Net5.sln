@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DetermineHoveredChartElement", "DetermineHoveredChartElement\DetermineHoveredChartElement.vbproj", "{7B6F4CF3-FBDB-4E07-A354-0170ABA4B3DF}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetermineHoveredChartElement", "DetermineHoveredChartElement\DetermineHoveredChartElement.Net5.csproj", "{7B6F4CF3-FBDB-4E07-A354-0170ABA4B3DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
